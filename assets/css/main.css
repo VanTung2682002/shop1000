@@ -1509,3 +1509,25 @@ i.home-product-item__like-icon-fill {
     color: #737373;
     margin: 5px 0;
 }
+.notification__overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(161, 161, 161, 0.5);
+    z-index: 999;
+}
+.notification__content{
+    position: absolute;
+    font-size: 1.4rem;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: var(--white-color);
+    padding: 10px;
+}
+.notification__close{
+    padding-left: 98%;
+}
