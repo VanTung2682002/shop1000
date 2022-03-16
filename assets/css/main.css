@@ -1179,11 +1179,7 @@
     background-color: var(--white-color);
     transition: transform linear 0.1s;
     will-change: transform; /*khai báo cho trình duyệt hiểu*/
-}
-
-.home-product-item:hover {
-    box-shadow: 0 0.0625rem 20px 0px rgba(0, 0, 0, 0.05);
-    transform: translateY(-1px);
+    cursor: pointer;
 }
 
 .home-product-item__img {
@@ -1509,6 +1505,10 @@ i.home-product-item__like-icon-fill {
     color: #737373;
     margin: 5px 0;
 }
+
+.compartment{
+    
+}
 .notification__overlay{
     position: fixed;
     top: 0;
@@ -1530,4 +1530,26 @@ i.home-product-item__like-icon-fill {
 }
 .notification__close{
     padding-left: 98%;
+}
+
+.banner-product{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--white-color);
+    transition: transform linear 0.1s;
+    will-change: transform; /*khai báo cho trình duyệt hiểu*/
+}
+
+.banner-img{
+    padding-top: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-size: contain; /*duyệt chiều dọc ảnh*/
+    background-size: cover; /* duyệt chiều ngang bức ảnh*/
+    background-repeat: no-repeat; /* không lặp ảnh*/
+    background-position: center; /*Nằm trọng tâm bức ảnh*/
 }

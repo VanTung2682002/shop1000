@@ -310,9 +310,11 @@
     .l-2-4,
     .l-3,
     .l-4,
+    .l-4-8,
     .l-5,
     .l-6,
     .l-7,
+    .l-7-2,
     .l-8,
     .l-9,
     .l-10,
@@ -346,6 +348,11 @@
         max-width: 33.33333%;
     }
 
+    .l-4-8 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
     .l-5 {
         flex: 0 0 41.66667%;
         max-width: 41.66667%;
@@ -359,6 +366,11 @@
     .l-7 {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
+    }
+
+    .l-7-2 {
+        flex: 0 0 60%;
+        max-width: 60%;
     }
 
     .l-8 {
@@ -473,9 +485,11 @@
     .wide .l-2-4,
     .wide .l-3,
     .wide .l-4,
+    .wide .l-4-8,
     .wide .l-5,
     .wide .l-6,
     .wide .l-7,
+    .wide .l-7-2,
     .wide .l-8,
     .wide .l-9,
     .wide .l-10,
@@ -509,6 +523,11 @@
         max-width: 33.33333%;
     }
 
+    .wide .l-4-8 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
     .wide .l-5 {
         flex: 0 0 41.66667%;
         max-width: 41.66667%;
@@ -522,6 +541,11 @@
     .wide .l-7 {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
+    }
+
+    .wide .l-7-2 {
+        flex: 0 0 40%;
+        max-width: 40%;
     }
 
     .wide .l-8 {
