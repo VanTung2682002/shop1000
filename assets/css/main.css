@@ -751,13 +751,13 @@
     width: 60px;
     height: 34px;
     margin: 0 4px 0 0;
-    background-color: #fb5533;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 2px;
 }
 
 .header__search-btn:hover{
-    background-color: #fb5533;
+    background-color: var(--primary-color);
     opacity: 0.9;
     cursor: pointer;
 }
